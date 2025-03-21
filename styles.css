@@ -1,0 +1,33 @@
+.navbar.bg-primary {
+    background-color: #3d00af !important;
+}
+.navbar-brand {
+    font-family: 'Times New Roman', sans-serif;
+}
+/* Untuk perangkat dengan lebar layar lebih kecil dari 768px (misalnya ponsel) */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .navbar-brand {
+        font-size: 18px;
+    }
+
+    .rounded-circle {
+        height: 90px;
+        width: 90px;
+    }
+}
+
+/* Untuk perangkat dengan lebar layar lebih besar dari 768px (misalnya tablet atau desktop) */
+@media (min-width: 768px) {
+    .navbar-brand {
+        font-size: 24px;
+    }
+
+    .rounded-circle {
+        height: 130px;
+        width: 130px;
+    }
+}
